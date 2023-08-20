@@ -1,0 +1,21 @@
+.list {
+  display: flex;
+}
+
+.item:not(:last-child) {
+  margin-right: 20px;
+}
+
+.link {
+  display: block;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  cursor: pointer;
+  color: black;
+  transition: color 250ms linear;
+}
+
+.link:hover,
+.link:focus {
+  color: red;
+}
