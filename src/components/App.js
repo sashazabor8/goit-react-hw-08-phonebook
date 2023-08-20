@@ -1,4 +1,5 @@
 import { Route, Routes } from 'react-router-dom';
+
 import { useDispatch, useSelector } from 'react-redux';
 import { useEffect } from 'react';
 import authOperations from 'redux/auth/auth-operations';
@@ -28,6 +29,7 @@ const App = () => {
       {!isRefreshingCurrentUser && (
         <>
           <AppBar />
+
           <Routes>
             <Route
               path="/login"
