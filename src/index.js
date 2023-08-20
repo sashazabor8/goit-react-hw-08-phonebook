@@ -12,7 +12,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <Provider store={store}>
       <PersistGate loading={null} persistor={persistor}>
-        <HashRouter basename="/goit-react-hw-08-phonebook">
+        <HashRouter basename="https://sashazabor8.github.io/goit-react-hw-08-phonebook/">
           <App />
         </HashRouter>
       </PersistGate>
